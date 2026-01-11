@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F;
+  color: #FFAFB;
+  font-family: 'Inter', sans-serif;
+}
+
+h, h, h, h, h, h {
+  color: #FFAFB;
+}
+
+a {
+  color: #B;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #B;
+  color: #FFAFB;
+  border: none;
+  padding: .rem rem;
+  border-radius: .rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #BA;
+}
+
+button.secondary {
+  background-color: #BF;
+}
+
+button.secondary:hover {
+  background-color: #BDF;
+}
+
+.hero {
+  background-image: url('https://source.unsplash.com/x/?logistics');
+  background-size: cover;
+  background-position: center;
+  height: vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFAFB;
+  text-align: center;
+}
+
+.hero h {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.hero p {
+  font-size: .rem;
+  margin-bottom: rem;
+}
+
+.features {
+  background-color: #AFE;
+  padding: rem ;
+}
+
+.features h {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.features .card {
+  background-color: #AFE;
+  border: px solid #D;
+  border-radius: .rem;
+  padding: rem;
+  margin-bottom: rem;
+}
+
+.features .card h {
+  font-size: .rem;
+  margin-bottom: rem;
+}
+
+.features .card p {
+  font-size: rem;
+}
+
+.about {
+  background-color: #F;
+  padding: rem ;
+}
+
+.about h {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.about p {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.cta {
+  background-color: #AFE;
+  padding: rem ;
+  text-align: center;
+}
+
+.cta h {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.cta p {
+  font-size: rem;
+  margin-bottom: rem;
+}
+
+.footer {
+  background-color: #AFE;
+  padding: rem ;
+  text-align: center;
+}
+
+.footer p {
+  font-size: rem;
+}
+
+.footer a {
+  color: #B;
+  margin:  .rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
